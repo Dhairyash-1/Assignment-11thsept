@@ -1,130 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;600;700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;600;700&display=swap');*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Karla', sans-serif;
-    
+
 }
 
-p{
+p {
     line-height: 23px;
 }
-body{
+
+body {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     background: gainsboro;
 }
-.container{
+
+.container {
     max-width: 750px;
     background: white;
     /* padding: 25px; */
     border-radius: 10px;
 }
-.container .row1{
+
+.container .row1 {
     padding: 25px;
 
 }
-.container .row1 h1{
+
+.container .row1 h1 {
     color: #00CED1;
     font-weight: 700;
     font-size: 25px;
     padding-top: 20px;
-    
-    
+
+
 }
-.row1 h2{
+
+.row1 h2 {
     color: hsl(71, 73%, 54%);
     padding: 20px 0 15px 0;
     font-size: 16px;
 }
-.row1 p{
-    color:hsl(218, 22%, 67%) ;
+
+.row1 p {
+    color: hsl(218, 22%, 67%);
     font-weight: 400;
     font-size: 17px;
     line-height: 28px;
     padding-bottom: 15px;
 
 }
-.row2{
+
+.row2 {
     display: flex;
     width: 100%;
     border-radius: 10px;
     flex-wrap: wrap;
 
-    
+
 }
-.left{
-    background:#38a3a2;
+
+.left {
+    background: #38a3a2;
     width: 50%;
     padding: 25px;
     text-align: start;
     border-bottom-left-radius: 10px;
-    
+
 }
-.left h2{
+
+.left h2 {
     /* font-size: 16px; */
     font-weight: 600;
     color: #fff;
-    padding: 0 10px;
+    padding: 10px 0;
 }
-.pricing{
+
+.pricing {
     color: #fff;
     font-weight: 700;
     font-size: 25px;
+    padding: 15px 0;
 }
-.pricing span{
+
+.pricing span {
     color: lightgray;
     font-weight: 200;
     font-size: 14px;
-    
+
 }
-.row2 h3{
+
+.row2 h3 {
     color: hwb(217 75% 11%);
     font-weight: 400;
     padding-bottom: 25px;
 }
-.left .btn input{
+
+.left .btn input {
     color: white;
     background: hsl(71, 73%, 54%);
     border-radius: 5px;
     border: none;
-    width: 90%;
+    width: 86%;
     height: 45px;
     font-weight: 600;
     font-size: 16px;
 
 }
-.right{
+
+.right {
     background: #31b8b6;
     width: 50%;
     padding: 25px;
     border-bottom-right-radius: 10px;
 
 }
-.right h2{
+
+.right h2 {
     color: #fff;
     padding: 10px 0;
 }
-.right p{
-    color:  whitesmoke;
+
+.right p {
+    color: whitesmoke;
     padding-top: 10px;
     font-weight: 300;
 }
-@media(max-width:750px){
 
-    body{
+@media(max-width:750px) {
+
+    body {
         display: block;
         padding: 20px;
         height: 100%;
     }
-    .left,.right{
+
+    .left,
+    .right {
         width: 100%;
         border-radius: 0;
     }
-    .right{
+
+    .right {
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
     }
