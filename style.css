@@ -23,7 +23,6 @@ body {
 .container {
     max-width: 750px;
     background: white;
-    /* padding: 25px; */
     border-radius: 10px;
 }
 
@@ -99,6 +98,9 @@ body {
     color: hwb(217 75% 11%);
     font-weight: 400;
     padding-bottom: 35px;
+}
+.btn{
+    text-align: center;
 }
 
 .left .btn input {
