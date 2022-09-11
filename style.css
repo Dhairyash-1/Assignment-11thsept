@@ -85,7 +85,7 @@ body {
     color: #fff;
     font-weight: 700;
     font-size: 25px;
-    padding: 15px 0;
+    /* padding-bottom: 15px ; */
 }
 
 .pricing span {
@@ -98,7 +98,7 @@ body {
 .row2 h3 {
     color: hwb(217 75% 11%);
     font-weight: 400;
-    padding-bottom: 25px;
+    padding-bottom: 35px;
 }
 
 .left .btn input {
